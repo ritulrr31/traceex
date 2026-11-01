@@ -1,0 +1,47 @@
+
+
+# Python virtual environments
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# Datasets and large archives
+data/
+*.pcap
+*.pcapng
+*.zip
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Old Streamlit dashboard
+appconsole.py
